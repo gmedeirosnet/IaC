@@ -1,4 +1,5 @@
 **TERRAFORM STRUCTURE**
+**IaC**
 
 ```python
 ├── modules/                   # Reusable modules for resources (e.g., VPC, EC2, S3)
