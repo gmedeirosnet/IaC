@@ -1,0 +1,33 @@
+# AWS Env credentials
+env.sh
+
+# Local Terraform CLI files
+.terraform/                  # Terraform plugin and module cache
+.terraform.lock.hcl          # Lock file for provider versions (optional to track in Git)
+
+# Terraform variable and state files (sensitive)
+*.tfstate                    # State files that track infrastructure
+*.tfstate.*                  # Backup files for state (e.g., .tfstate.backup)
+*.tfvars                     # Variable files (often contain sensitive data)
+
+# Crash logs
+crash.log                    # Terraform crash logs
+
+# Terraform plan files
+*.tfplan                     # Plan files created by terraform plan -out
+
+# Sensitive personal credentials
+*.pem                        # Private key files
+*.key                        # SSH private keys
+*.env                        # Environment variable files (may contain sensitive data)
+
+# IDE and OS files (common patterns)
+.DS_Store                    # macOS
+*.swp                        # vim swap files
+.idea/                       # IntelliJ IDEA
+.vscode/                     # VS Code
+*.log                        # Log files
+
+# Backup files
+*.bak                        # Backup files
+*.backup                     # General backup files
